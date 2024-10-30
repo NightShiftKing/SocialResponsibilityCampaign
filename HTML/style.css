@@ -7,7 +7,8 @@
 
 header{
     text-align: center;
-    background-color: blueviolet;
+    background-color: rgb(255, 204, 0);
+
     overflow: hidden;
     padding: 10px 0;
     position: sticky;
@@ -19,9 +20,10 @@ h1{
 
 nav{
     text-align: center;
-    background-color: blueviolet;
+    background-color: rgb(96, 0, 151);
     overflow: hidden;
     position: sticky;
+
 }
 
 li{
@@ -30,12 +32,23 @@ li{
 
 a{
     text-decoration: none;
-    color: rgb(233, 167, 81);
+    color: rgb(255, 204, 0);
     font-size: 24px;
 }
 
 
 body{
-    background-color: rgb(233, 167, 81);
+    background-color: rgb(175, 175, 175);
 
+
+
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+img{
+    overflow: hidden;
 }
