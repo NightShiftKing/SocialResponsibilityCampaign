@@ -7,7 +7,7 @@
 
 header{
 
-    background-color: rgb(120, 81, 169);
+    background-color: #9d7ee0;
     overflow: hidden;
     padding: 10px 0;
     position: sticky;
@@ -15,11 +15,13 @@ header{
 }
 h1{
     font-size: 60px;
+    color: black;
 }
 
 h2{
 
     font-size: 42px;
+    margin-top: 30px;
 }
 
 .NavBar li{
@@ -44,9 +46,10 @@ a{
 
 
 body{
-    background-color: rgb(204, 204, 0);
+    background-color: #EEE4B1;
     text-align: center;
 
+    color: rgb(34, 34, 34);
 
 }
 
@@ -56,14 +59,23 @@ body{
     background-position: center; /* Centers the image within the container */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     width: 100%; /* Sets the container width */
-    height: 400px; /* Sets the container height */
+    height: 500px; /* Sets the container height */
     image-resolution: 3000dpi;
 }
 
 p{
     font-size: 30px;
-}
 
+}
 li{
     font-size: 30px;
+
+}
+
+
+.Borders{
+    border-color: rgb(165, 169, 180);
+    border-style: solid;
+    border-width: 10px;
+
 }
