@@ -6,36 +6,64 @@
 
 
 header{
-    text-align: center;
-    background-color: blueviolet;
+
+    background-color: rgb(120, 81, 169);
     overflow: hidden;
     padding: 10px 0;
     position: sticky;
 
 }
 h1{
+    font-size: 60px;
+}
+
+h2{
+
     font-size: 42px;
 }
 
+.NavBar li{
+   display: inline;
+
+}
+
+
 nav{
-    text-align: center;
-    background-color: blueviolet;
+
+    background-color: rgb(165, 169, 180);
     overflow: hidden;
     position: sticky;
 }
 
-li{
-    display: inline;
-}
 
 a{
     text-decoration: none;
-    color: rgb(233, 167, 81);
+    color: black;
     font-size: 24px;
 }
 
 
 body{
-    background-color: rgb(233, 167, 81);
+    background-color: rgb(204, 204, 0);
+    text-align: center;
 
+
+}
+
+.navImg {
+    background-image: url("BannerImage1.jpg");
+    background-size: cover;
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100%; /* Sets the container width */
+    height: 400px; /* Sets the container height */
+    image-resolution: 3000dpi;
+}
+
+p{
+    font-size: 30px;
+}
+
+li{
+    font-size: 30px;
 }
