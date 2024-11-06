@@ -11,6 +11,7 @@ header{
     overflow: hidden;
     padding: 10px 0;
     position: sticky;
+    top: 0;
 
 }
 h1{
@@ -29,23 +30,33 @@ h3{
     font-size: 32px;
 }
 
+.header{
+    position: sticky;
+    top: 0;
+}
+
 .NavBar li{
    display: inline;
 
+
 }
 
+.NavBar li :hover{
+    color: rgb(71, 71, 71);
+    text-decoration: underline;
+}
 
 nav{
 
     background-color: rgb(165, 169, 180);
     overflow: hidden;
-    position: sticky;
+    padding: 10px;
 }
 
 
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(34, 34, 34);
     font-size: 24px;
     margin: 5px;
 }
